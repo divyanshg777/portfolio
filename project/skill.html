@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <div class="nav">
+            <div class="logo">
+             <img src="Logo.png" alt="logo">
+            </div>
+            <div class="navbar">
+             <a href="#home">Home</a>
+             <a href="#skills">Skills</a>
+             <a href="#education">Education</a>
+             <a href="#project">Project</a>
+             <a href="#recommendation">Recommendation</a>
+             <a href="#contact">Contact</a>
+            
+            </div>
+        </div>
+        <div class="skills1">
+            <div class="skillsheader1">
+               <div class="skillheading1">Skills & Languages</div>
+               <div class="projectdes1">Lorem ipsum dolor sit amet, consectetur  adipisicing elit. Sapiente molestiae,<br>Lorem ipsum dolor, sit amet </div>
+              </div>
+             <div class="projectbody11">
+               <div id="card11" class="projectcard"> 
+                <div class="margin">
+                <div class="s1">Front End Development</div>
+                <div class="s2 s4">Html <span class="hp1">90%</span>
+                    <br>
+                    <progress class="progress1" value="90" max="100"></progress>
+                </div>
+                <div class="s2">CSS <span class="hp2">85%</span>     
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+                <div class="s2">Js <span class="hp3">80%</span>
+                    <br>
+                    <progress class="progress1" value="80" max="100"></progress>
+                </div>
+                <div class="s2">PHP <span class="hp4">75%</span>
+                    <br>
+                <progress class="progress1" value="75" max="100"></progress>
+                </div>
+                <div class="s2">WordPress <span class="hp5">85%</span>
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+                </div>
+                      
+            
+               </div>
+               <div  id="card22"class="projectcard">
+                <div class="margin">
+                <div class="s1">Languages</div>
+                <div class="s2 s3">Hindi  <span class="hp6">90%</span>  
+                    <br>
+                    <progress class="progress1" value="90" max="100"></progress>
+                </div>
+                <div class="s2">English <span class="hp7">85%</span>
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+            </div>
+               </div>
+
+
+               <div id="card33" class="projectcard">
+                <div class="margin">
+               <div class="s1">Backend Development</div>
+               <br>
+               <div class="s2">NodeJS  <span class="hp8">90%</span>    
+                <br>
+                <progress  class="progress1" value="90" max="100"></progress>
+            </div>
+            <div class="s2">SSR <span class="hp9">85%</span>
+                <br>
+                <progress class="progress1" value="85" max="100"></progress>
+                </div>
+            </div>
+             </div>
+             </div>
+               <div class="projectbody22">
+               <div id="card44" class="projectcard">
+                <div class="margin">
+                <div class="s1">Front End Development</div>
+                <div class="s2 s4">Html <span class="hp1">90%</span>
+                    <br>
+                    <progress class="progress1" value="90" max="100"></progress>
+                </div>
+                <div class="s2">CSS <span class="hp2">85%</span>    
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+                <div class="s2">Js <span class="hp3">80%</span>
+                    <br>
+                    <progress class="progress1" value="80" max="100"></progress>
+                </div>
+                <div class="s2">PHP <span class="hp4">75%</span>
+                    <br>
+                <progress class="progress1" value="75" max="100"></progress>
+                </div>
+                <div class="s2">WordPress <span class="hp5">85%</span>
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+            </div>
+               </div>
+               <div id="card55" class="projectcard">
+                <div class="margin">
+                <div class="s1">Languages</div>
+                <div class="s2 s3">Hindi <span class="hp6">90%</span>  
+                    <br>
+                    <progress class="progress1" value="90" max="100"></progress>
+                </div>
+                <div class="s2">English <span class="hp7">85%</span>
+                    <br>
+                    <progress class="progress1" value="85" max="100"></progress>
+                </div>
+            </div>
+               </div>
+               <div id="card66" class="projectcard">
+                <div class="margin">
+                <div class="s1">Backend Development</div>
+               <br>
+               <div class="s2">NodeJS <span class="hp8">90%</span>    
+                <br>
+                <progress class="progress1" value="90" max="100"></progress>
+            </div>
+            <div class="s2">SSR <span class="hp9">85%</span>
+                <br>
+                <progress class="progress1" value="85" max="100"></progress>
+                </div>
+            </div>
+             </div>
+               </div>
+            
+       <button class="addskill" id="addSkillBtn">Add Skill</button>
+
+       
+       <div id="skillModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="as">Add Skill</h2>
+            <form>
+                <div class="domain">
+                    <div class="domaindes">
+                <label class="domain1" for="domain">Domain</label><br>
+            </div>
+            <div class="domaindes1">
+                <input type="text" id="domain22" name="domain" value="Front End Developer" readonly>
+            </div>
+            </div>
+            <div class="skill11">Skills</div>
+              <div class="skillcontainer">
+                <div class="skillcontainerleft"><label class="label1" for="">Skill</label><br>
+                <div class="sk"><input type="text" class="sk11 sk66"></div>
+                <div class="sk"><input type="text" class="sk22 sk66"></div>
+                <div class="sk"><input type="text" class="sk33 sk66"></div>
+                <div class="sk"><input type="text" class="sk44 sk66"></div>
+                <div class="sk"><input type="text" class="sk55 sk66"></div>
+                </div>
+                <div class="skillcontainerright">
+                    <label  class = " pf1" for="">Proficiency (%)</label><br>
+                    <div class="pf"><input type="number" class="pf11 pf66"></div>
+                    <div class="pf"><input type="number" class="pf22 pf66"></div>
+                    <div class="pf"><input type="number" class="pf33 pf66"></div>
+                    <div class="pf"><input type="number" class="pf44 pf66"></div>
+                    <div class="pf"><input type="number" class="pf55 pf66"></div>
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="button11"  type="submit">Add Skill</button>
+                <button class="button22" type="button" class="cancelBtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+       </div>
+
+          <script src="script.js"></script>
+           </div>
+        <div class="footer1">
+            <div class="logos"><div><img class="frame" src="frame1.png" alt=""></div>
+            <div><img class="frame"  src="frame2.png" alt=""></div>
+            <div><img class="frame"  src="frame3.png" alt=""></div>
+            <div><img class="frame"  src="frame4.png" alt=""></div>
+        </div><img class="footerimage" src="Logo.png" alt="">
+        <div class="footersection">
+            <div class="footersec1"><div class="image"><img class="img"  src="image1.png" alt=""><div class="imagedes">4.5/5 rating on Lorem </div></div>
+            <div class="image"><img class="img"  src="image2.png" alt=""><div class="imagedes">9/10 rating on Ipsum</div></div>
+            <div class="image"><img class="img"  src="image3.png" alt=""><div class="imagedes">4.5/5 Rating on dorel</div></div></div>
+            <div  class="footersec2"><h1 class="fsheading">Quick Links</h1><div class="fsdes"><div class="fsitem">Home</div>
+            <div class="fsitem" >Skills</div>
+            <div class="fsitem">Education</div>
+            <div class="fsitem">Projects</div>
+            <div class="fsitem">Recommendations</div></div></div>
+            <div  class="footersec3"><h1 class="fsheading1">Portfolio</h1><div class="fsdes2"><div class="fsitem2">Frontend Development</div>
+            <div class="fsitem2">Backend Development</div>
+            <div class="fsitem2">Website design</div>
+            <div class="fsitem2">Machine Learning</div>
+            <div class="fsitem2">Problem Solving & DSA</div></div></div>
+            <div  class="footersec4"><h1 class="social">Connect</h1><div class="fsdes3"><div class="fsitem3"><img src="LinkedIn.png" alt="" class="fsimg1">
+            </div>
+            <div class="fsitem3"><img src="Instagram.png" alt="" class="fsimg2"></div>
+            <div class="fsitem3"><img src="Facebook.png" alt="" class="fsimg3"></div></div></div>
+        </div>
+        <div class="copyright"><div><img class="cpy" src="Copyright Circle.png" alt=""></div><span class="cpytxt"> 2024 Copyright, All right reserved</span></div>
+    </div>
+    </div></body>
+</html>
